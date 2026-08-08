@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vizora | Aryan Jangid - Video Editor & Motion Designer</title>
-    <meta name="description" content="Portfolio of Aryan Jangid, a versatile video editor and motion designer skilled in Premiere Pro and After Effects.">
+    <meta name="description" content="Portfolio of Aryan Jangid, a versatile video editor and motion designer.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,68 +14,49 @@
 <body>
     <nav class="navbar">
         <div class="logo-container">
-            <!-- Replace with the actual generated logo path if copying files, for now using local reference -->
             <img src="kv.jpg" alt="Vizora Logo" class="brand-logo">
             <span class="brand-name">VIZORA</span>
         </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+        </ul>
     </nav>
 
     <main class="container">
-        <!-- Left Section: Profile Info -->
-        <section class="profile-section">
-            <div class="profile-header">
-                <div class="profile-image-container">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Aryan Jangid" class="profile-image">
-                </div>
+        <!-- Home Section -->
+        <section id="home" class="page-section">
+            <div class="hero-content">
                 <h1 class="name">Aryan Jangid</h1>
-                
-                <div class="meta-info">
-                    <span class="meta-item">
-                        <i class="fa-solid fa-location-dot"></i> India
-                    </span>
-                    <span class="meta-item">
-                        <i class="fa-solid fa-globe"></i> Hindi, English
-                    </span>
-                </div>
-            </div>
-
-            <div class="bio">
-                <p>
-                    I'm a versatile video editor and motion designer, skilled in both long form and short form content from corporate and commercial videos to social media edits using Premiere Pro and After Effects & more.
-                </p>
-            </div>
-
-            <div class="social-links">
-                <a href="#" class="social-icon email-icon" aria-label="Email">
-                    <i class="fa-regular fa-envelope"></i>
-                </a>
-                <a href="#" class="social-icon instagram-icon" aria-label="Instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+                <p class="subtitle">Video Editor & Motion Designer</p>
+                <a href="#work" class="cta-button">View My Work</a>
             </div>
         </section>
 
-        <!-- Right Section: Portfolio & Tools -->
-        <section class="portfolio-section">
-            <div class="work-grid">
-                <!-- Video Item 1 -->
-                <div class="work-card">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Work 1" class="work-thumbnail">
-                    <div class="play-overlay">
-                        <i class="fa-solid fa-play"></i>
-                    </div>
+        <!-- About Section -->
+        <section id="about" class="page-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-card">
+                <div class="meta-info">
+                    <span class="meta-item"><i class="fa-solid fa-location-dot"></i> India</span>
+                    <span class="meta-item"><i class="fa-solid fa-globe"></i> Hindi, English</span>
                 </div>
-                <!-- Video Item 2 -->
-                <div class="work-card">
-                    <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Work 2" class="work-thumbnail">
-                    <div class="play-overlay">
-                        <i class="fa-solid fa-play"></i>
-                    </div>
+                <p class="bio">
+                    I'm a versatile video editor and motion designer, skilled in both long form and short form content from corporate and commercial videos to social media edits using Premiere Pro and After Effects & more.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-icon email-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#" class="social-icon instagram-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
+        </section>
 
-            <div class="tools-section">
-                <h2 class="section-title">Editing Tools</h2>
+        <!-- Skills Section -->
+        <section id="skills" class="page-section">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="glass-card skills-card">
                 <div class="tools-grid">
                     <div class="tool-badge">
                         <div class="tool-icon pr-icon">Pr</div>
@@ -86,12 +67,31 @@
                         <span>Adobe After Effects</span>
                     </div>
                     <div class="tool-badge">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/DaVinci_Resolve_17_logo.svg" alt="DaVinci Resolve" class="tool-image-icon">
+                        <div class="tool-icon" style="background: #111; border: 1px solid #fff;">Dv</div>
                         <span>DaVinci Resolve</span>
                     </div>
                     <div class="tool-badge">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg" alt="Blender" class="tool-image-icon">
+                        <div class="tool-icon" style="background: #ff7f00; border: 1px solid #ff7f00;">Bl</div>
                         <span>Blender</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="page-section">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="glass-card work-card-container">
+                <p class="bio text-center">Video portfolio coming soon. Stay tuned for updates!</p>
+                <!-- Placeholder for future work items without images -->
+                <div class="work-list">
+                    <div class="work-list-item">
+                        <h3>Commercial Video Edit</h3>
+                        <p>High-energy promotional content for a leading tech brand.</p>
+                    </div>
+                    <div class="work-list-item">
+                        <h3>Social Media Shorts</h3>
+                        <p>Engaging, fast-paced edits optimized for Instagram and TikTok algorithms.</p>
                     </div>
                 </div>
             </div>
