@@ -383,14 +383,15 @@ body::after {
 
 /* ── Work / Portfolio Section ── */
 .video-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+    column-count: 2;
+    column-gap: 2rem;
     margin-top: 1.5rem;
+    width: 100%;
 }
 
 .video-item {
+    break-inside: avoid;
+    margin-bottom: 2rem;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0,0,0,0.1);
@@ -398,7 +399,7 @@ body::after {
     transition: transform 0.3s, box-shadow 0.3s;
     background: #fff;
     width: 100%;
-    max-width: 650px;
+    display: inline-block;
 }
 
 .video-item:hover {
@@ -437,4 +438,8 @@ body::after {
     }
 
     .nav-links { gap: 1.5rem; }
+
+    .video-grid {
+        column-count: 1;
+    }
 }
