@@ -331,8 +331,8 @@ body::after {
 /* Work Section */
 .video-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2.5rem;
     margin-top: 1.5rem;
 }
 
