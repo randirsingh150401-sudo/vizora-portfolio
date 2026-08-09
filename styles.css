@@ -398,7 +398,7 @@ body::after {
     transition: transform 0.3s, box-shadow 0.3s;
     background: #fff;
     width: 100%;
-    max-width: 400px;
+    max-width: 650px;
 }
 
 .video-item:hover {
